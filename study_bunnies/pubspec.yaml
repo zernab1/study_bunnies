@@ -43,6 +43,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/pancake_bunny.jpg
+    - assets/backyard.jpg
+    - assets/buns.jpg
+    - assets/buns.gif
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -56,6 +59,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: VT323
+      fonts:
+        - asset: assets/fonts/VT323-Regular.ttf
+    - family: Indie Flower
+      fonts:
+        - asset: assets/fonts/IndieFlower.ttf
+    - family: Amatic SC
+      fonts:
+        - asset: assets/fonts/AmaticSC-Bold.ttf
+        - asset: assets/fonts/AmaticSC-Regular.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
